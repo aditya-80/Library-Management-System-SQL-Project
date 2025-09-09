@@ -1,13 +1,13 @@
--- ✅ Library Management System Project
+-- Library Management System Project
 
 ------------------------------------------------------------
--- 📌 Step 1: Create the Database and Use It
+-- Step 1: Create the Database and Use It
 ------------------------------------------------------------
 CREATE DATABASE IF NOT EXISTS library;
 USE library;
 
 ------------------------------------------------------------
--- 📌 Step 2: Create Table: branch
+-- Step 2: Create Table: branch
 -- Stores branch details of the library
 ------------------------------------------------------------
 DROP TABLE IF EXISTS branch;
@@ -19,7 +19,7 @@ CREATE TABLE branch (
 );
 
 ------------------------------------------------------------
--- 📌 Step 3: Create Table: employees
+-- Step 3: Create Table: employees
 -- Stores employee details, linked to branch
 ------------------------------------------------------------
 DROP TABLE IF EXISTS employees;
@@ -33,7 +33,7 @@ CREATE TABLE employees (
 );
 
 ------------------------------------------------------------
--- 📌 Step 4: Create Table: members
+-- Step 4: Create Table: members
 -- Stores library member details
 ------------------------------------------------------------
 DROP TABLE IF EXISTS members;
@@ -45,7 +45,7 @@ CREATE TABLE members (
 );
 
 ------------------------------------------------------------
--- 📌 Step 5: Create Table: books
+-- Step 5: Create Table: books
 -- Stores book details
 ------------------------------------------------------------
 DROP TABLE IF EXISTS books;
@@ -60,7 +60,7 @@ CREATE TABLE books (
 );
 
 ------------------------------------------------------------
--- 📌 Step 6: Create Table: issued_status
+-- Step 6: Create Table: issued_status
 -- Stores information about issued books
 ------------------------------------------------------------
 DROP TABLE IF EXISTS issued_status;
@@ -77,7 +77,7 @@ CREATE TABLE issued_status (
 );
 
 ------------------------------------------------------------
--- 📌 Step 7: Create Table: return_status
+-- Step 7: Create Table: return_status
 -- Stores information about returned books
 ------------------------------------------------------------
 DROP TABLE IF EXISTS return_status;
